@@ -1,0 +1,6 @@
+.avatar{
+	width: 60px;
+	height: 60px; 
+	/* taille du prof =50px pour la hauteur et la largeur */
+	border-radius: 50%;
+}

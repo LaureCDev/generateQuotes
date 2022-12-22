@@ -1,0 +1,25 @@
+.btn-green{
+	background-color: #10A19D; /*green*/
+	color: #e1e6e1;
+	font-weight: bold;
+	font-size: 1em;
+	padding: 15px 20px;
+	width: 220px;
+	height: 50px;
+	border-radius: 4px;
+	font-family: Roboto, Helvetica, sans-serif;
+	vertical-align: center;
+	text-align: center;
+}
+
+.btn-green:hover{
+  transition: background-color 20ms;
+	background-color: #540375; /*dark purple*/
+	cursor: pointer;
+}
+
+.btn-green:focus{
+	background-color: #9e7676; /*light brown coming from the brown color of the header picture*/
+}
+
+

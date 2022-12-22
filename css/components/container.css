@@ -1,0 +1,48 @@
+.container{
+	width: 700px;
+	margin: 0 auto; /*pour centrer pas de marge à gauche et à droite, centrage haut bas */
+	padding: 30px;
+}
+
+
+/* Tablets */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) 
+{
+	.container
+	{
+		width: 70%;
+		background-color: pink;
+	}	
+}
+
+/* Smartphones */
+@media only screen and (min-device-width : 481px) and (max-device-width : 767px)
+{
+	.container
+	{
+		width: 70%;
+		background-color: blue;
+	}
+
+}
+
+	
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) 
+{
+	.container
+	{
+		width: 90%;
+		background-color: yellow;
+	}
+}
+
+/*dummyphones*/
+@media only screen and (min-device-width : 200px) and (max-device-width : 319px) 
+{
+	.container
+	{
+		width: 90%;
+		background-color: gray;
+	}
+	
+}

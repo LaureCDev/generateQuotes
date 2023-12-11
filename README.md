@@ -1,2 +1,2 @@
 # generateQuotes
-Javascript code to generate random quotes
+Javascript code to generate randomized quotes
